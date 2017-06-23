@@ -60,7 +60,9 @@
     "page/API/pages/get-location/get-location",
     "page/API/pages/open-location/open-location",
     "page/API/pages/choose-location/choose-location",
-    "page/API/pages/storage/storage"
+    "page/API/pages/storage/storage",
+    "page/Shop/index",
+    "page/Social/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -74,12 +76,24 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
-                  {
-                    "pagePath": "page/Work/index",
-                    "iconPath": "image/icon_API.png",
-                    "selectedIconPath": "image/icon_API_HL.png",
-                    "text": "办事"
-                  },
+      {
+        "pagePath": "page/Work/index",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "办事"
+      },
+      {
+        "pagePath": "page/Shop/index",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "商家"
+      },
+            {
+              "pagePath": "page/Social/index",
+              "iconPath": "image/icon_API.png",
+              "selectedIconPath": "image/icon_API_HL.png",
+              "text": "社交"
+            },
       {
         "pagePath": "page/component/index",
         "iconPath": "image/icon_component.png",

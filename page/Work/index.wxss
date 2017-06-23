@@ -16,6 +16,11 @@
   font-size: 14px;
 }
 
+.work-list-img {
+  width: 42rpx;
+  height: 42rpx;
+}
+
 .work-list-item {
   margin: 20rpx 0;
   background-color: #FFFFFF;
@@ -29,4 +34,28 @@
   align-items: center;
 
   transition: opacity .3s;
+}
+
+.work-list-item-c {
+
+
+  align-items: center;
+  overflow: hidden;
+}
+
+.mini-btn{
+  margin-right: 10rpx;
+
+}
+
+button{
+  margin-top: 3rpx;
+  margin-bottom: 30rpx;
+}
+
+.page-body-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }

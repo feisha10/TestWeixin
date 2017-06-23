@@ -58,6 +58,16 @@ Page({
     ]
   },
 
+  kindbutton: function (e) {
+
+    var id = e.currentTarget.id;
+    console.log(id);
+    wx.makePhoneCall({
+      phoneNumber: id
+    })
+    //alert("test");
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -113,4 +123,6 @@ Page({
   onShareAppMessage: function () {
   
   }
+
+  
 })

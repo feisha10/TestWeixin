@@ -10,9 +10,19 @@
         <view class="work-list-item">
           <view id="{{item.id}}" class="work-list-item-hd">
             <view class="title">{{item.title}}</view>
-            <view class="othertext">{{item.time}}</view>
-            <view class="othertext">{{item.address}}</view>
-            <view class="othertext">{{item.phone}}</view>
+            <view>
+              <image class="work-list-img" src="resources/kind/media.png"></image>
+              <text selectable="true">{{item.time}}</text>
+            </view>
+            <view>
+              <image class="work-list-img" src="resources/kind/location.png"></image>
+              <text selectable="true">{{item.address}}</text>
+            </view>
+            <view class="page-body-wrapper">
+              <image class="work-list-img" src="resources/kind/device.png"></image>
+              <text selectable="true">{{item.phone}}</text>
+              <button id="{{item.phone}}" type="primary" bindtap="kindbutton" size="mini">打电话</button>
+            </view>
           </view>
         </view>
       </block>
