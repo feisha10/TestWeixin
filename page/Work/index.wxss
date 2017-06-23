@@ -1,0 +1,32 @@
+/* index.wxss */
+@import "../common/index.wxss";
+
+.title{
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.othertext{
+  margin-top: 0;
+  padding-top: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #00ff00;
+  font-size: 14px;
+}
+
+.work-list-item {
+  margin: 20rpx 0;
+  background-color: #FFFFFF;
+  border-radius: 4rpx;
+  overflow: hidden;
+}
+
+.work-list-item-hd {
+  padding: 30rpx;
+
+  align-items: center;
+
+  transition: opacity .3s;
+}
