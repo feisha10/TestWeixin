@@ -54,6 +54,20 @@ Page({
         time: '8:30-12:00,13:30-17:30',
         address: 'address',
         phone: '020-32011188'
+      },
+      {
+        id: 'view8',
+        title: '建设银行',
+        time: '8:30-12:00,13:30-17:30',
+        address: 'address',
+        phone: '020-32011188'
+      },
+      {
+        id: 'view9',
+        title: '建设银行',
+        time: '8:30-12:00,13:30-17:30',
+        address: 'address',
+        phone: '020-32011188'
       }
     ]
   },
