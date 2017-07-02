@@ -78,14 +78,14 @@
     "list": [
       {
         "pagePath": "page/Work/index",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
+        "iconPath": "image/call-center-worker-with-headset.png",
+        "selectedIconPath": "image/call-center-worker-with-headset-select.png",
         "text": "办事"
       },
       {
         "pagePath": "page/Shop/index",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
+        "iconPath": "image/cart.png",
+        "selectedIconPath": "image/cart-select.png",
         "text": "商家"
       },
             {

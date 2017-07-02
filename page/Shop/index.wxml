@@ -1,2 +1,37 @@
 <!--index.wxml-->
-<text>index.wxml</text>
+<view class="index">
+  <view class="work-index-hd">
+   <!-- <image class="index-logo" src="resources/kind/logo.png"></image>-->
+    <view class="index-desc">周边商家</view>
+  </view>
+  <view class="index-bd">
+    <view class="kind-list">
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+        <view class="work-list-item">
+          <view id="{{item.id}}" class="work-list-item-hd">
+            <view class="title">{{item.title}}</view>
+            <navigator id="{{item.phone}}"  class="work-navigator" bindtap="kindbutton">
+                  <image class="work-list-img" src="resources/kind/phone-call.png"></image>
+                  <view class="work_navigator-text">{{item.phone}}</view>
+                  <view class="navigator-arrow"></view>
+            </navigator>
+            <view>
+              <image class="work-list-img" src="resources/kind/placeholder.png"></image>
+              <text class="work_navigator-text" selectable="true">{{item.address}}</text>
+            </view>
+           <!-- <view class="navigator-arrow">
+              <image class="work-list-img" src="resources/kind/phone-call.png"></image>
+              <text selectable="true">{{item.phone}}</text>
+              <!--<button id="{{item.phone}}" type="primary" bindtap="kindbutton" size="mini">打电话</button>
+            </view>-->
+
+            <view>
+              <image class="work-list-img" src="resources/kind/clock1.png"></image>
+              <text class="work_navigator-text"  selectable="true">{{item.des}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

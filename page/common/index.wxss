@@ -59,7 +59,9 @@
 .navigator-arrow {
   padding-right: 26rpx;
   position: relative;
+  
 }
+
 .navigator-arrow:after {
   content: " ";
   display: inline-block;

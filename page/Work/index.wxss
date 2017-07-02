@@ -1,10 +1,9 @@
-/* index.wxss */
-@import "../common/index.wxss";
+
 
 .title{
   margin-bottom: 5px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .othertext{
@@ -17,8 +16,8 @@
 }
 
 .work-list-img {
-  width: 42rpx;
-  height: 42rpx;
+  width: 32rpx;
+  height: 32rpx;
 }
 
 .work-list-item {
@@ -29,7 +28,7 @@
 }
 
 .work-list-item-hd {
-  padding: 30rpx;
+  padding: 16rpx;
 
   align-items: center;
 
@@ -59,3 +58,28 @@ button{
   align-items: center;
   width: 100%;
 }
+
+.work_navigator-text {
+  padding-left: 20rpx;
+  flex: 1;
+}
+
+.navigator-arrow {
+  padding-right: 26rpx;
+  position: relative;
+  align-items: center;
+}
+
+.work-navigator {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.work-index-hd {
+  padding: 30rpx;
+  text-align: center;
+}
+
+/* index.wxss */
+@import "../common/index.wxss";

@@ -10,15 +10,15 @@ Page({
         id: 'view1',
         title: '过户、办证业务咨询',
         time: '8:30-12:00,13:30-17:30',
-        address: 'address',
+        address: '翡翠绿洲商业街A栋2楼客服中心',
         phone:'020-32011188'
       }, 
       {
         id: 'view2',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
-        address: 'address',
-        phone: '020-32011188'
+        time: '周一至周五9:00-16:00',
+        address: '翡翠绿洲六期商业街',
+        phone: '020-32021162'
       }, 
       {
         id: 'view3',

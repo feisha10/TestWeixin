@@ -9,63 +9,63 @@ Page({
       {
         id: 'view1',
         title: '过户、办证业务咨询',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view2',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view3',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view4',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view5',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view6',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view7',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view8',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       },
       {
         id: 'view9',
         title: '建设银行',
-        time: '8:30-12:00,13:30-17:30',
+        des: '商家说明',
         address: 'address',
         phone: '020-32011188'
       }
